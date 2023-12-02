@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.css-reset-html\n{\n    margin: 0;\n    height: 100%;\n    line-height: 1.15;\n    -webkit-text-size-adjust: 100%;\n    background-color: #F7F7F7;\n    font-size: 16px;\n    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n}\n\n.css-reset-body\n{\n    margin: 0;\n    height: 100%;\n}\n\nbody \n{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n\n#nav-bar \n{\n    width: 100vw;\n    height: 8vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n    background-color: rgb(0, 0, 0);\n    color: #F7F7F7;\n\n    > button \n    {\n        background-color: #F7F7F7;\n    }\n\n}\n\n#footer\n{\n    width: 100vw;\n    height: 6vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n    background-color: rgb(0, 0, 0);\n    color: #F7F7F7;\n}\n\n.about-page-style\n{\n    background-color: red;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://front-end/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.css-reset-html\n{\n    margin: 0;\n    height: 100%;\n    line-height: 1.15;\n    -webkit-text-size-adjust: 100%;\n    background-color: #F7F7F7;\n    font-size: 16px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n}\n\n.css-reset-body\n{\n    margin: 0;\n    height: 100%;\n}\n\nbody \n{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n}\n\n#nav-bar \n{\n    width: 100vw;\n    height: 10vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: rgb(0, 0, 0);\n    color: #F7F7F7;\n    > button \n    {\n        color: #F7F7F7;\n        background-color: transparent;\n        padding: 0.25rem 0.75rem 0.25rem 0.75rem;\n        width: max(7rem, 20vw);\n        border: 0.1rem solid transparent;\n        border-radius: 0.35rem;\n        font-size: 1rem;\n        margin: 1rem;\n    }\n    > button:hover \n    {\n        transform: scale(1.2);\n        color: rgb(158, 154, 154);\n    }\n\n}\n\n#footer\n{\n    width: 100vw;\n    height: 6vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 0.75rem;\n    background-color: rgb(0, 0, 0);\n    color: #F7F7F7;\n}\n\n.title-text\n{\n    color: black;\n    font-size: 2rem;\n}\n\n.about-page-style\n{\n    background-color: red;\n}\n\n.history-page{\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 2rem;\n    > img\n    {\n        height: 5rem;\n        width: 5rem;\n    }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://front-end/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -120,13 +120,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/formPage.js":
+/*!*************************!*\
+  !*** ./src/formPage.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   formPageLoad: () => (/* binding */ formPageLoad)\n/* harmony export */ });\n\n\nconst pageHTML = `<div>FORM PAGE...</div>`;\n\n\n\nfunction formPageLoad(contentDiv)\n{\n    contentDiv.innerHTML = pageHTML;\n}\n\n\n\n\n//# sourceURL=webpack://front-end/./src/formPage.js?");
+
+/***/ }),
+
+/***/ "./src/historyPage.js":
+/*!****************************!*\
+  !*** ./src/historyPage.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   historyPageLoad: () => (/* binding */ historyPageLoad)\n/* harmony export */ });\n/* harmony import */ var _history_FILL0_wght400_GRAD0_opsz24_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./history_FILL0_wght400_GRAD0_opsz24.svg */ \"./src/history_FILL0_wght400_GRAD0_opsz24.svg\");\n\n\nconst myIcon = new Image();\nmyIcon.src = _history_FILL0_wght400_GRAD0_opsz24_svg__WEBPACK_IMPORTED_MODULE_0__;\nconst pageHTML = `<div class=\"title-text\">Previous Searches...</div>`;\n\n\nfunction historyPageLoad(contentDiv)\n{\n    contentDiv.innerHTML = pageHTML;\n    contentDiv.prepend(myIcon);\n}\n\n\n\n\n\n\n//# sourceURL=webpack://front-end/./src/historyPage.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _aboutPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aboutPage */ \"./src/aboutPage.js\");\n\n\n\n\nconst contentDiv = document.getElementById(\"content\");\n\n(0,_aboutPage__WEBPACK_IMPORTED_MODULE_1__.aboutPageLoad)(contentDiv);\n\n//# sourceURL=webpack://front-end/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _aboutPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aboutPage */ \"./src/aboutPage.js\");\n/* harmony import */ var _historyPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./historyPage */ \"./src/historyPage.js\");\n/* harmony import */ var _formPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./formPage */ \"./src/formPage.js\");\n\n\n\n\n\n\nconst contentDiv = document.getElementById(\"content\");\nconst homeBtn = document.getElementById(\"home-button\");\nconst aboutBtn = document.getElementById(\"about-button\");\nconst historyBtn = document.getElementById(\"history-button\");\n\nhomeBtn.addEventListener(\"click\", () => {(0,_formPage__WEBPACK_IMPORTED_MODULE_3__.formPageLoad)(contentDiv)});\naboutBtn.addEventListener(\"click\", () => {(0,_aboutPage__WEBPACK_IMPORTED_MODULE_1__.aboutPageLoad)(contentDiv)});\n\nhistoryBtn.addEventListener(\"click\", () => {\n    (0,_historyPage__WEBPACK_IMPORTED_MODULE_2__.historyPageLoad)(contentDiv)\n    contentDiv.classList.add(\"history-page\");\n});\n\n\n\n\n//# sourceURL=webpack://front-end/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/history_FILL0_wght400_GRAD0_opsz24.svg":
+/*!****************************************************!*\
+  !*** ./src/history_FILL0_wght400_GRAD0_opsz24.svg ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cbf22e78d66e0f64c01d.svg\";\n\n//# sourceURL=webpack://front-end/./src/history_FILL0_wght400_GRAD0_opsz24.svg?");
 
 /***/ })
 
@@ -181,6 +211,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +237,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
