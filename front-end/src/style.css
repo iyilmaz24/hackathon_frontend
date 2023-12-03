@@ -98,7 +98,7 @@ footer
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 130%;
     > div
     {
@@ -145,8 +145,8 @@ footer
     padding: 1rem;
     border-radius: 1rem;
     border: 0.1rem solid black;
-    height: 75vh;
-    width: 80vw;
+    height: 60vh;
+    width: 65vw;
     background-color: #2a2438;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -154,8 +154,8 @@ footer
     grid-auto-rows: 1fr;
     justify-items: center;
     align-items: center;
-    gap: 0.5rem;
-    opacity: 0.8;
+    opacity: 0.75;
+    font-size: 0.8rem;
 }
 
 
@@ -192,7 +192,7 @@ form
     background-color: #2a2438;
     color: #dbd8e3;
     accent-color: #5c5470;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     opacity: 0.85;
     > button 
     {
