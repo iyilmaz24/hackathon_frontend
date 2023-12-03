@@ -1,11 +1,18 @@
 
 
-const pageHTML = `<div class="about-page-style">TEAM 12 ABOUT PAGE</div>`;
+const loremIpsumText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
+
+const pageHTML = `<div>${loremIpsumText}</div>
+<a href="https://github.com/yoyoconnor/SudoHackathon">Link to Github Repo</a>`;
 
 
 
 function aboutPageLoad(contentDiv)
 {
+    contentDiv.classList.add("about-page");
     contentDiv.innerHTML = pageHTML;
 }
 
