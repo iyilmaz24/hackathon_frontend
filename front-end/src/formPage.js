@@ -22,7 +22,7 @@ const formPageHTML = `<div class="title-text">College Compare © 2023</div>
         <label for="ranking">Preferred Student Body Size?</label>
         <select name="size" id="size">
             <option value="tiny"> 100 - 10,000</option>
-            <option value="small">10,0000 - 25,000</option>
+            <option value="small">10,000 - 25,000</option>
             <option value="medium">25,000 - 45,000</option>
             <option value="large">45,000 + </option>
         </select>

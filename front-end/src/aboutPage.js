@@ -1,11 +1,10 @@
 
 
-const loremIpsumText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
-
-const pageHTML = `<div>${loremIpsumText}</div>
+const aboutBio = `This project was built in a 24 hour period by Jacky, Sarah, Michael, and Connor between Decemeber 2nd and Decemeber 3rd of 2024. 
+The blending of multiple points of view, into a project that provides the small 
+service of comparing 2 colleges. Limited by funds, we utilized free APIs, free vector images, free documentation, and a lot of
+creativity. We hope that you enjoy using our project and get some value from it.`
+const pageHTML = `<div>${aboutBio}</div>
 <a href="https://github.com/yoyoconnor/SudoHackathon">Link to Github Repo</a>`;
 
 
